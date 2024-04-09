@@ -16,7 +16,7 @@ public static void addition() {
 
     if (DataTypeChecker.numcheck(num1) && DataTypeChecker.numcheck(num2)) {
         
-        System.out.println("Addition is>> " + (int)result);
+        System.out.println("Addition of "+num1+" and"+num2+" is>> " + (int)result);
     } else {
         System.out.println("Addition is>> " + result);
     }
